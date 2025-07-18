@@ -1,0 +1,63 @@
+
+=========================
+PROCESSANDO PCA COM 35 COMPONENTES
+=========================
+(7250, 35)
+Dados divididos em treino (5437 amostras) e validação (1813 amostras).
+Fitting 4 folds for each of 24 candidates, totalling 96 fits
+
+--- Resultados do GridSearchCV (no conjunto de treino) ---
+Melhor pontuação (métrica da competição): 3.9049
+Melhores parâmetros: {'C': 100, 'gamma': 0.01}
+
+--- Performance final no conjunto de validação (dados não vistos) ---
+Pontuação da competição (validação): 3.9746
+Acurácia (validação): 68.3398%
+
+Relatório de classificação detalhado (validação):
+                           precision    recall  f1-score   support
+
+           Andressa Gomes       0.61      0.73      0.67        45
+            Antonio Damin       0.82      0.90      0.86        50
+            Antonio Lenda       0.47      0.50      0.49        50
+             Caio Casadio       0.73      0.78      0.75        78
+         Cristiane Millan       0.76      0.78      0.77        50
+           Daniel Trocoli       0.50      0.48      0.49        50
+             David Guedes       0.50      0.60      0.55        50
+          Eduardo Almeida       0.46      0.62      0.53        45
+            Elvizio Vanzo       0.63      0.68      0.65        47
+            Fabio Gustavo       0.77      0.92      0.84        50
+                Felipe Sá       0.64      0.76      0.70        50
+        Fernanda Bomtorin       0.92      0.92      0.92        50
+        Fernando Oliveira       0.69      0.74      0.71        50
+       Francisco Raimundo       0.77      0.77      0.77        53
+            Igor Giuliano       0.70      0.66      0.68        50
+             Ivan Ribeiro       0.76      0.64      0.70        50
+            Jairo Marques       0.53      0.47      0.49        45
+        José Mauro Santos       0.63      0.65      0.64        48
+   Letícia de Souza Condé       0.90      0.94      0.92        50
+              Lucas DElia       0.73      0.72      0.73        50
+       Lucas Felipe Silva       0.68      0.56      0.62        50
+            Lucas Machado       0.89      0.94      0.91        50
+         Matheus Oliveira       0.71      0.60      0.65        50
+Mirella Medeiros da Silva       0.88      0.90      0.89        50
+            Murilo Xavier       0.70      0.70      0.70        50
+    Nicholas Guedes Pucci       0.78      0.72      0.75        50
+             Pedro Scapin       0.90      0.79      0.84        47
+           Plínio Santana       0.71      0.58      0.64        50
+         Rafael A M Costa       0.67      0.58      0.62        50
+        Ricardo Gonçalves       0.41      0.44      0.42        55
+            Rodrigo Aroni       0.56      0.49      0.52        55
+           Rodrigo Campos       0.63      0.54      0.58        50
+           Tamires Guedes       0.69      0.66      0.67        47
+          Viriato Ignácio       0.59      0.56      0.57        48
+             Wagner Lucio       0.76      0.82      0.79        50
+           Willians Felix       0.54      0.42      0.47        50
+
+                 accuracy                           0.68      1813
+                macro avg       0.68      0.68      0.68      1813
+             weighted avg       0.69      0.68      0.68      1813
+
+Modelo '35.pkl' salvo.
+
+Busca de hiperparâmetros concluída para todos os modelos PCA.
